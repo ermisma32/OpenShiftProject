@@ -1,7 +1,5 @@
 FROM ubi7/ubi:7.7
 
-MAINTAINER Tester Prog <mailto:tester@myprog.com>
-
 LABEL description=“A custom Apache container based on UBI 7”
 
 RUN yum install -y httpd && \
